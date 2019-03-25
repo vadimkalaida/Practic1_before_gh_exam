@@ -1,0 +1,6 @@
+
+node_modules/
+.idea/
+package-lock.json
+assets/img/mainfile.psd
+bowerc_components/

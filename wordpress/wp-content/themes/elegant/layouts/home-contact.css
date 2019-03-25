@@ -1,0 +1,83 @@
+.home-contact {
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: 80px; }
+  .home-contact__container {
+    width: 70%;
+    min-height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; }
+  .home-contact-small-headline {
+    font-size: 13px;
+    color: #d4af37;
+    text-transform: uppercase;
+    letter-spacing: 0.65px;
+    margin-top: 0; }
+  .home-contact-headline {
+    opacity: .7;
+    color: #021725;
+    font-size: 44px;
+    letter-spacing: 2.2px;
+    margin-top: 0;
+    margin-bottom: 57px; }
+  .home-contact__content {
+    width: 767px;
+    min-height: 295px;
+    overflow: hidden;
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column; }
+    .home-contact__content__top {
+      width: 100%;
+      height: 295px;
+      overflow: hidden; }
+    .home-contact__content__bottom {
+      width: 100%;
+      min-height: 0;
+      display: flex;
+      flex-direction: column; }
+      .home-contact__content__bottom__line {
+        width: 100%;
+        display: flex; }
+      .home-contact__content__bottom__text {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; }
+        .home-contact__content__bottom__text-headline {
+          max-width: 250px;
+          font-size: 13px;
+          color: #505d68;
+          text-transform: uppercase;
+          letter-spacing: .65px;
+          padding-top: 32px; }
+        .home-contact__content__bottom__text-paragraph {
+          max-width: 250px;
+          font-size: 19px;
+          color: #505d68;
+          font-weight: 300;
+          letter-spacing: 0.57px;
+          margin-top: 40px;
+          margin-bottom: 0; }
+        .home-contact__content__bottom__text-paragraph2 {
+          max-width: 250px;
+          font-size: 19px;
+          color: #505d68;
+          font-weight: 300;
+          letter-spacing: 0.57px;
+          margin-bottom: 44px; }
+
+@media (min-width: 320px) and (max-width: 770px) {
+  .home-contact__container {
+    width: 100%; }
+  .home-contact__content {
+    width: 100%; } }
+
+@media (min-width: 320px) and (max-width: 520px) {
+  .home-contact__content__bottom__line {
+    flex-direction: column;
+    align-items: center; } }

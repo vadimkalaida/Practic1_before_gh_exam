@@ -1,0 +1,106 @@
+$text-transform-upper: uppercase;
+$bold: bold;
+$center: center;
+$flex: flex;
+$direction-col: column;
+$auto: auto;
+$width-100: 100%;
+$white: #fff;
+$wrap: wrap;
+$none: none;
+$transparent: transparent;
+$black: #000;
+
+.whowe2 {
+  width: $width-100;
+  min-height: 160px;
+  margin-bottom: 140px;
+
+  &__container {
+    width: 70%;
+    min-height: 160px;
+    margin: $auto;
+    display: $flex;
+    flex-direction: $direction-col;
+    align-items: $center;
+    text-align: $center;
+  }
+
+  &-small-headline {
+    font-size: 13px;
+    color: #d4af37;
+    text-transform: $text-transform-upper;
+    letter-spacing: 0.65px;
+    margin-top: 0px;
+  }
+
+  &__persons {
+    max-width: 750px;
+    min-height: 0;
+    display: $flex;
+    flex-wrap: $wrap;
+    justify-content: $center;
+
+    &__person {
+      width: 246px;
+      max-height: 425px;
+      overflow: hidden;
+      display: $flex;
+      flex-direction: $direction-col;
+      background: #f9f9f9;
+      align-items: flex-start;
+      justify-content: flex-start;
+      text-align: left;
+      margin-left: 2px;
+      margin-right: 2px;
+      margin-bottom: 4px;
+
+      & img {
+        width: 246px;
+        height: 192px;
+      }
+    }
+  }
+
+  &__person-name {
+    opacity: .7;
+    color: #021725;
+    font-size: 21px;
+    letter-spacing: 1.05px;
+    margin-left: 15px;
+  }
+
+  &__person-text {
+    color: #021725;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: .65px;
+    margin-left: 15px;
+  }
+}
+
+.whowe2__person-job p {
+  color: #d4af37;
+  font-size: 13px;
+  text-transform: $text-transform-upper;
+  letter-spacing: 0.65px;
+  margin-left: 15px;
+}
+
+@media(min-width: 320px) and (max-width: 527px) {
+  .whowe2 {
+    &__persons {
+      &__person {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+@media(min-width: 320px) and (max-width: 622px) {
+  .whowe2 {
+    &__container {
+      width: 95%;
+    }
+  }
+}

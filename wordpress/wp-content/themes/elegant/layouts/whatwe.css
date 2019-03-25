@@ -1,0 +1,38 @@
+.whatwe {
+  width: 100%;
+  min-height: 310px;
+  margin-bottom: 140px; }
+  .whatwe__container {
+    width: 100%;
+    min-height: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto; }
+  .whatwe-small-headline {
+    font-size: 13px;
+    color: #d4af37;
+    text-transform: uppercase;
+    letter-spacing: 0.65px;
+    margin-top: 0px; }
+  .whatwe-headline {
+    opacity: .7;
+    color: #021725;
+    font-size: 44px;
+    letter-spacing: 2.2px;
+    margin-top: 0;
+    margin-bottom: 57px; }
+  .whatwe__works {
+    width: 100%;
+    min-height: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1276px;
+    justify-content: center; }
+    .whatwe__works img {
+      width: 317px;
+      height: 300px;
+      margin-left: 1px;
+      margin-right: 1px;
+      margin-bottom: 2px; }

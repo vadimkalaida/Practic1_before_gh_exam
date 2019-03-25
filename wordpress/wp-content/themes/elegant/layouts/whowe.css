@@ -1,0 +1,53 @@
+.whowe {
+  width: 100%;
+  min-height: 265px;
+  margin-bottom: 140px; }
+  .whowe__container {
+    width: 70%;
+    min-height: 265px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center; }
+  .whowe-small-headline {
+    font-size: 13px;
+    color: #d4af37;
+    text-transform: uppercase;
+    letter-spacing: 0.65px;
+    margin-top: 80px; }
+  .whowe-headline {
+    opacity: .7;
+    color: #021725;
+    font-size: 44px;
+    letter-spacing: 2.2px;
+    margin-top: 0;
+    margin-bottom: 37px; }
+  .whowe-text {
+    font-size: 18px;
+    color: #021725;
+    line-height: 32px;
+    letter-spacing: .9px;
+    margin-top: 0;
+    margin-bottom: 39px; }
+  .whowe-button {
+    width: 240px;
+    height: 60px;
+    background: transparent;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #021725;
+    font-size: 14px;
+    letter-spacing: .7px;
+    transition: .2s; }
+    .whowe-button:hover {
+      background: #F9F9F9; }
+    .whowe-button:active {
+      background: #F3F3F3; }
+
+@media (min-width: 320px) and (max-width: 620px) {
+  .whowe__container {
+    width: 95%; } }

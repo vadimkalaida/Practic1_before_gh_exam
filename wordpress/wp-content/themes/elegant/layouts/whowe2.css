@@ -1,0 +1,67 @@
+.whowe2 {
+  width: 100%;
+  min-height: 160px;
+  margin-bottom: 140px; }
+  .whowe2__container {
+    width: 70%;
+    min-height: 160px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+  .whowe2-small-headline {
+    font-size: 13px;
+    color: #d4af37;
+    text-transform: uppercase;
+    letter-spacing: 0.65px;
+    margin-top: 0px; }
+  .whowe2__persons {
+    max-width: 750px;
+    min-height: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .whowe2__persons__person {
+      width: 246px;
+      max-height: 425px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      background: #f9f9f9;
+      align-items: flex-start;
+      justify-content: flex-start;
+      text-align: left;
+      margin-left: 2px;
+      margin-right: 2px;
+      margin-bottom: 4px; }
+      .whowe2__persons__person img {
+        width: 246px;
+        height: 192px; }
+  .whowe2__person-name {
+    opacity: .7;
+    color: #021725;
+    font-size: 21px;
+    letter-spacing: 1.05px;
+    margin-left: 15px; }
+  .whowe2__person-text {
+    color: #021725;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: .65px;
+    margin-left: 15px; }
+
+.whowe2__person-job p {
+  color: #d4af37;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.65px;
+  margin-left: 15px; }
+
+@media (min-width: 320px) and (max-width: 527px) {
+  .whowe2__persons__person {
+    margin-bottom: 30px; } }
+
+@media (min-width: 320px) and (max-width: 622px) {
+  .whowe2__container {
+    width: 95%; } }

@@ -1,0 +1,27 @@
+$text-transform-upper: uppercase;
+$bold: bold;
+$center: center;
+$flex: flex;
+$direction-col: column;
+$auto: auto;
+$width-100: 100%;
+$white: #fff;
+$wrap: wrap;
+$none: none;
+
+.header-blog {
+  width: $width-100;
+  min-height: 400px;
+  background: url('../img/header-blog-bg.png');
+  background-position: $center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__container {
+    width: 90%;
+    min-height: 400px;
+    margin: $auto;
+    display: $flex;
+    flex-direction: $direction-col;
+  }
+}

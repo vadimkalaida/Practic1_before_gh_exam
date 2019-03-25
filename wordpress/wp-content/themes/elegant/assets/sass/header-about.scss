@@ -1,0 +1,56 @@
+$text-transform-upper: uppercase;
+$bold: bold;
+$center: center;
+$flex: flex;
+$direction-col: column;
+$auto: auto;
+$width-100: 100%;
+$white: #fff;
+$wrap: wrap;
+$none: none;
+$transparent: transparent;
+
+.header-about {
+  width: $width-100;
+  min-height: 700px;
+  background: url('../img/header-about-bg.png');
+  background-position: $center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__container {
+    width: 90%;
+    min-height: 700px;
+    margin: $auto;
+    display: $flex;
+    flex-direction: $direction-col;
+  }
+
+  &__content {
+    width: $width-100;
+    min-height: 625px;
+    display: $flex;
+    align-items: flex-end;
+    justify-content: $center;
+    text-align: $center;
+    &-btn-down {
+      width: 31px;
+      height: 31px;
+      background: $transparent;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      color: $white;
+      display: $flex;
+      align-items: $center;
+      justify-content: $center;
+      margin-bottom: 40px;
+      transition: .2s;
+      &:hover {
+        background: rgba(255, 255, 255, .1);
+      }
+      &:active {
+        background: rgba(255, 255, 255, .2);
+      }
+    }
+  }
+}

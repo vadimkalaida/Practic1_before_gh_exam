@@ -1,0 +1,36 @@
+.header-about {
+  width: 100%;
+  min-height: 700px;
+  background: url("../img/header-about-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .header-about__container {
+    width: 90%;
+    min-height: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column; }
+  .header-about__content {
+    width: 100%;
+    min-height: 625px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center; }
+    .header-about__content-btn-down {
+      width: 31px;
+      height: 31px;
+      background: transparent;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 40px;
+      transition: .2s; }
+      .header-about__content-btn-down:hover {
+        background: rgba(255, 255, 255, 0.1); }
+      .header-about__content-btn-down:active {
+        background: rgba(255, 255, 255, 0.2); }

@@ -1,0 +1,93 @@
+.services {
+  width: 1280px;
+  min-height: 450px;
+  overflow: hidden;
+  background: #f9f9f9;
+  display: flex;
+  margin: auto; }
+  .services img {
+    width: 640px;
+    height: 450px; }
+  .services__right {
+    width: 50%;
+    display: flex;
+    flex-direction: column; }
+    .services__right-headline {
+      color: #505d68;
+      font-size: 45px;
+      letter-spacing: 1.35px;
+      padding-left: 40px;
+      margin-top: 37px;
+      margin-bottom: 0; }
+    .services__right__text {
+      display: flex;
+      margin-bottom: 15px; }
+      .services__right__text__left {
+        width: 50%; }
+      .services__right__text__right {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-top: 0;
+        margin-bottom: 19px; }
+    .services__right-text {
+      max-width: 264px;
+      color: #505d68;
+      font-size: 18px;
+      line-height: 30px;
+      letter-spacing: .9px;
+      padding-left: 45px;
+      padding-top: 50px; }
+    .services__right-line {
+      max-width: 225px;
+      color: #505d68;
+      font-size: 18px;
+      font-weight: 300;
+      letter-spacing: .9px;
+      line-height: 30px;
+      margin-bottom: 0;
+      margin-top: 0; }
+
+@media (min-width: 320px) and (max-width: 1280px) {
+  .services {
+    width: 100%; }
+    .services__right-headline {
+      padding-left: 20px; }
+    .services__right__text__right {
+      margin-left: 5%; }
+    .services__right-text {
+      padding-left: 25px; } }
+
+@media (min-width: 640px) and (max-width: 1123px) {
+  .services {
+    width: 640px;
+    flex-direction: column;
+    align-items: center; }
+    .services__right {
+      width: 100%; } }
+
+@media (min-width: 320px) and (max-width: 639px) {
+  .services {
+    width: 100%;
+    flex-direction: column;
+    align-items: center; }
+    .services img {
+      width: 100%;
+      height: 100%; }
+    .services__right {
+      width: 100%; } }
+
+@media (min-width: 320px) and (max-width: 423px) {
+  .services__right {
+    align-items: center; }
+    .services__right__text {
+      flex-direction: column;
+      align-items: center; }
+      .services__right__text__left {
+        width: 100%; }
+      .services__right__text__right {
+        width: 100%; }
+    .services__right-headline {
+      padding-left: 0; }
+    .services__right-text {
+      padding-left: 0; } }
